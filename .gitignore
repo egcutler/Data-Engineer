@@ -1,3 +1,6 @@
-workshoA/Data_Archive/*
+# Note, git only ignores files not in the repository. So if you already have the 
+# files uploaded, you have to delete them from the repository first for the ignore feature to work.
+# Debuggin: if you ran a push and the excel files were uploaded, you have to remove the repository files first from the site
+DB_Environment/Data_Archive/*
 myenv/
 __pycache__
