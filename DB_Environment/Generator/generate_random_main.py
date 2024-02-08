@@ -200,7 +200,7 @@ emp_df = da_errors_emp.email_incorrect_format('Employee Email', apply_perc=15)
 #----------              Store Datasets                                   ---------
 #----------------------------------------------------------------------------------
 #----------------------------------------------------------------------------------
-pathway_output = "workshopA/Data_Archive/"
+pathway_output = "DB_Environment/Data_Archive/"
 # Random Business Table
 bus_df.to_csv(pathway_output + "business data.csv", index=False)
 
